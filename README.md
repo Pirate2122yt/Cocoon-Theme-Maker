@@ -1,7 +1,7 @@
 ## AI-Generated Project Disclaimer
 
 This theme-building program was created with the assistance of artificial intelligence.  
-Portions of the code, documentation, and design logic were generated or refined using AI-based tools.  
+Almost all of the code, documentation, and design logic were generated or refined using AI-based tools.  
 While these tools accelerate development and help streamline the creative process, they may also introduce unintended behavior, inconsistencies, or inaccuracies.
 
 By using this software, you acknowledge that:
@@ -12,7 +12,9 @@ By using this software, you acknowledge that:
 - Users should validate all results before applying them to production systems, distributing themes, or relying on them for critical customization workflows.
 
 
-This project is provided as-is, and users are encouraged to test thoroughly, customize responsibly, and report any issues that may arise.
+This project is provided as-is, and users are encouraged to test it, customize responsibly, and report any issues that may arise.
+
+Feel free to provide feedback to me via Discord at Pirate2122yt.
 
 # Cocoon Theme Maker
 
@@ -29,6 +31,8 @@ A full Cocoon Shell theme builder with live previews, color palette editing, sou
 - 📂 **Load Existing Themes** — Open and edit existing theme directories
 
 ## Getting Started
+
+You may download the latest release or compile it yourself using the instructions below.
 
 ### Prerequisites
 
