@@ -4,10 +4,9 @@ A full Cocoon Shell theme builder with live previews, color palette editing, sou
 
 ## Features
 
-- 🎨 **Full Color Editor** — Visual color pickers for all 22 theme.json color properties, organized by category with live gradient previews
-- 👁️ **Live Preview** — Real-time Cocoon Shell simulator that updates instantly as you edit colors, wallpapers, and metadata
+- 🎨 **Full Color Editor** — Visual color pickers for 18 theme.json color properties, organized by category with gradient previews
 - 🖼️ **Wallpaper Management** — Upload main and external display wallpapers (PNG/JPG)
-- 🔊 **Sound Pack** — Assign custom audio files (.wav/.mp3/.ogg) to all 19 UI events
+- 🔊 **Sound Pack** — Assign custom audio files (.wav/.mp3/.ogg) to 5 UI events
 - 📁 **Smart Folders** — Upload platform icons, hero images, and logos for NES, SNES, N64, GBA, NDS, PSX, PS2, GameCube, and Favorites
 - 📦 **ZIP Export** — One-click export to a valid Cocoon theme ZIP package with correct folder structure
 - 💾 **Draft Saving** — Save work-in-progress themes to disk
