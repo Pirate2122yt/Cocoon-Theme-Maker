@@ -1,0 +1,60 @@
+{
+  "name": "cocoon-theme-maker",
+  "version": "1.0.0",
+  "description": "A full Cocoon Shell theme builder with live previews, icon pack editing, and export presets",
+  "main": "main.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+    "dev:react": "vite --port 5175",
+    "dev:electron": "wait-on http://localhost:5175 && electron .",
+    "build": "vite build && electron-builder",
+    "build:react": "vite build",
+    "preview": "vite preview",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "howler": "^2.2.4",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1",
+    "sharp": "^0.34.5",
+    "vite": "^5.0.8",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.cocoonthememaker.app",
+    "productName": "Cocoon Theme Maker",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.js",
+      "icon.png",
+      "electron/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.png"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
+  }
+}
