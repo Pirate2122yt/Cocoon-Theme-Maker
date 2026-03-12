@@ -16,6 +16,7 @@ This project is provided as-is, and users are encouraged to test it, customize r
 
 Feel free to provide feedback to me via Discord at Pirate2122yt.
 
+
 # Cocoon Theme Maker
 
 A full Cocoon Shell theme builder with live previews, color palette editing, sound pack management, smart folder asset control, and one-click ZIP export.
