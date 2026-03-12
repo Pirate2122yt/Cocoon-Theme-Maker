@@ -14,6 +14,7 @@ By using this software, you acknowledge that:
 
 This project is provided as-is, and users are encouraged to test it, customize responsibly, and report any issues that may arise.
 
+
 Feel free to provide feedback to me via Discord at Pirate2122yt.
 
 # Cocoon Theme Maker
